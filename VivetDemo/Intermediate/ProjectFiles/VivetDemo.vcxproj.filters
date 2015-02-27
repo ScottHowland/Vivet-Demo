@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\VivetDemo.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{DE7C3DCD-C11A-4F78-A648-6718E0EFDC55}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\VivetDemo.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\VivetDemoEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{59A7335B-69BD-4896-91C2-81F8F8EA5C7E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\VivetDemo">
+			<UniqueIdentifier>{E1708D30-9CF4-431A-BA76-7CE43CDD14FB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\VivetDemo\VivetDemo.Build.cs">
+			<Filter>Source\VivetDemo</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\VivetDemo\VivetDemo.cpp">
+			<Filter>Source\VivetDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VivetDemo\VivetDemo.h">
+			<Filter>Source\VivetDemo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\VivetDemo\VivetDemoGameMode.cpp">
+			<Filter>Source\VivetDemo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\VivetDemo\VivetDemoGameMode.h">
+			<Filter>Source\VivetDemo</Filter>
+		</ClInclude >
+		<Filter Include="Source\VivetDemo\Resources">
+			<UniqueIdentifier>{DCD5EFFC-5BAE-4032-B34A-15498E737C85}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\VivetDemo\Resources\Windows">
+			<UniqueIdentifier>{8A632A3D-970A-420B-ACC8-9920B98B4554}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\VivetDemo\Resources\Windows\VivetDemo.rc">
+			<Filter>Source\VivetDemo\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
